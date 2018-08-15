@@ -9,5 +9,3 @@ class ParseJSON
 end
 
 json = ParseJSON.new("json_exchange_rates.json")
-
-p json.json_file

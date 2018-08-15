@@ -35,7 +35,7 @@ describe "Creating tests for currency json file" do
   end
 
   it "should confirm that all data types are floats" do
-    expect(@currency.json_file["rates"].values).to all(be_an(Float))
+    expect(@currency.json_file["rates"].values).to all(be_a(Float))
   end
 
   # should fail as an example
